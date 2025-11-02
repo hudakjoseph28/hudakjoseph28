@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <!-- Glow filter -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Gradient for J -->
+    <linearGradient id="gradientJ" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0066ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for H -->
+    <linearGradient id="gradientH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Letter J -->
+  <g filter="url(#neonGlow)">
+    <!-- J vertical stroke -->
+    <path d="M 30 25 L 30 70 Q 30 85 45 85 L 55 85" 
+          fill="none" 
+          stroke="url(#gradientJ)" 
+          stroke-width="6" 
+          stroke-linecap="round"
+          stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,200;200,0" 
+               dur="2s" 
+               fill="freeze"/>
+    </path>
+    <!-- J curved bottom -->
+    <path d="M 30 70 Q 30 85 45 85" 
+          fill="none" 
+          stroke="url(#gradientJ)" 
+          stroke-width="6" 
+          stroke-linecap="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,100;100,0" 
+               dur="1.5s" 
+               begin="1.5s" 
+               fill="freeze"/>
+    </path>
+  </g>
+  
+  <!-- Letter H -->
+  <g filter="url(#neonGlow)">
+    <!-- H left vertical -->
+    <path d="M 70 25 L 70 95" 
+          fill="none" 
+          stroke="url(#gradientH)" 
+          stroke-width="6" 
+          stroke-linecap="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,150;150,0" 
+               dur="1.5s" 
+               begin="1s" 
+               fill="freeze"/>
+    </path>
+    <!-- H right vertical -->
+    <path d="M 90 25 L 90 95" 
+          fill="none" 
+          stroke="url(#gradientH)" 
+          stroke-width="6" 
+          stroke-linecap="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,150;150,0" 
+               dur="1.5s" 
+               begin="1.5s" 
+               fill="freeze"/>
+    </path>
+    <!-- H horizontal -->
+    <path d="M 70 60 L 90 60" 
+          fill="none" 
+          stroke="url(#gradientH)" 
+          stroke-width="6" 
+          stroke-linecap="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,60;60,0" 
+               dur="1s" 
+               begin="0.5s" 
+               fill="freeze"/>
+    </path>
+  </g>
+</svg>
+
