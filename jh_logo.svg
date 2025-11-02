@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Gradient for J -->
+    <linearGradient id="gradientJ" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffc8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00d9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00a8ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for H -->
+    <linearGradient id="gradientH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9333ea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00b4d8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ffc8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Animated background pulse -->
+  <circle cx="100" cy="100" r="85" fill="url(#gradientJ)" opacity="0.1">
+    <animate attributeName="r" values="85;95;85" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Letter J -->
+  <g filter="url(#glow)">
+    <!-- J vertical stroke -->
+    <path d="M 60 40 L 60 120 Q 60 140 80 140 L 90 140" 
+          fill="none" 
+          stroke="url(#gradientJ)" 
+          stroke-width="8" 
+          stroke-linecap="round"
+          stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,300;300,0" 
+               dur="2s" 
+               fill="freeze"/>
+    </path>
+    <!-- J curved bottom -->
+    <path d="M 60 120 Q 60 140 80 140" 
+          fill="none" 
+          stroke="url(#gradientJ)" 
+          stroke-width="8" 
+          stroke-linecap="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,200;200,0" 
+               dur="2s" 
+               begin="1.5s" 
+               fill="freeze"/>
+    </path>
+    <!-- J dot -->
+    <circle cx="90" cy="30" r="5" fill="url(#gradientJ)">
+      <animate attributeName="opacity" 
+               values="0;1;1;0" 
+               dur="3s" 
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Letter H -->
+  <g filter="url(#glow)">
+    <!-- H left vertical -->
+    <path d="M 120 40 L 120 140" 
+          fill="none" 
+          stroke="url(#gradientH)" 
+          stroke-width="8" 
+          stroke-linecap="round"
+          stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,200;200,0" 
+               dur="2s" 
+               begin="1s" 
+               fill="freeze"/>
+    </path>
+    <!-- H right vertical -->
+    <path d="M 140 40 L 140 140" 
+          fill="none" 
+          stroke="url(#gradientH)" 
+          stroke-width="8" 
+          stroke-linecap="round"
+          stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,200;200,0" 
+               dur="2s" 
+               begin="1.5s" 
+               fill="freeze"/>
+    </path>
+    <!-- H horizontal -->
+    <path d="M 120 90 L 140 90" 
+          fill="none" 
+          stroke="url(#gradientH)" 
+          stroke-width="8" 
+          stroke-linecap="round"
+          stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" 
+               values="0,100;100,0" 
+               dur="1s" 
+               begin="0.5s" 
+               fill="freeze"/>
+    </path>
+  </g>
+  
+  <!-- Animated corner accents -->
+  <circle cx="40" cy="40" r="3" fill="#00ffc8" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="160" r="3" fill="#9333ea" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
+
