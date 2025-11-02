@@ -156,17 +156,17 @@ I'm a passionate developer and AI enthusiast currently pursuing **Computer Scien
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&bg_color=0d1117&title_color=00ffc8&icon_color=00d9ff&text_color=ffffff&hide_border=true&border_radius=15&include_all_commits=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hudakjoseph28&show_icons=true&theme=radical&bg_color=0d1117&title_color=00ffc8&icon_color=00d9ff&text_color=ffffff&hide_border=true&border_radius=15&include_all_commits=true&count_private=true)
 
 </div>
 
 <div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&bg_color=0d1117&title_color=00ffc8&text_color=ffffff&hide_border=true&border_radius=15&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hudakjoseph28&layout=compact&theme=radical&bg_color=0d1117&title_color=00ffc8&text_color=ffffff&hide_border=true&border_radius=15&langs_count=8)
 
-![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=yourusername&theme=radical&background=0d1117&stroke=00ffc8&ring=00d9ff&fire=9333ea&currStreakLabel=00ffc8&border=transparent&border_radius=15)
+![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=hudakjoseph28&theme=radical&background=0d1117&stroke=00ffc8&ring=00d9ff&fire=9333ea&currStreakLabel=00ffc8&border=transparent&border_radius=15)
 
-![GitHub Contributions](https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=radical&bg_color=0d1117&color=00ffc8&line=00d9ff&point=9333ea&hide_border=true&radius=15)
+![GitHub Contributions](https://github-readme-activity-graph.vercel.app/graph?username=hudakjoseph28&theme=radical&bg_color=0d1117&color=00ffc8&line=00d9ff&point=9333ea&hide_border=true&radius=15)
 
 </div>
 
@@ -190,11 +190,8 @@ I'm a passionate developer and AI enthusiast currently pursuing **Computer Scien
 
 ### 💡 Building the future, one commit at a time.
 
-![Visitor Count](https://profile-counter.glitch.me/yourusername/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/hudakjoseph28/count.svg)
 
 ⭐ **Star my repositories if you find something interesting!**
-
-<!-- Repository card -->
-[![GitHub Repo](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=yourrepo&theme=radical&bg_color=0d1117&title_color=00ffc8&text_color=ffffff&hide_border=true&border_radius=15)](https://github.com/yourusername/yourrepo)
 
 </div>
