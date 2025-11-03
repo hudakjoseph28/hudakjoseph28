@@ -1,7 +1,5 @@
 <div align="center">
   
-<img src="jhlogo.png" width="150" height="150" alt="JH Logo">
-
-# Joseph Hudak
+<img src="jhlogo.png" width="400" height="400" alt="JH Logo">
 
 </div>
