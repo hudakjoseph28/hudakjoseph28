@@ -1,41 +1,10 @@
 <div align="center">
 
-<!-- Animated Name with Multiple Effects -->
+<!-- Animated Gradient Name -->
 <div align="center">
-  <svg width="700" height="140" viewBox="0 0 700 140" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1">
-          <animate attributeName="stop-color" values="#ff6b6b;#4ecdc4;#45b7d1;#96ceb4;#ffeaa7;#f093fb;#4facfe;#43e97b;#fa709a;#fee140;#ff6b6b" dur="4s" repeatCount="indefinite"/>
-        </stop>
-        <stop offset="25%" style="stop-color:#4ecdc4;stop-opacity:1">
-          <animate attributeName="stop-color" values="#4ecdc4;#45b7d1;#96ceb4;#ffeaa7;#f093fb;#4facfe;#43e97b;#fa709a;#fee140;#ff6b6b;#4ecdc4" dur="4s" repeatCount="indefinite"/>
-        </stop>
-        <stop offset="50%" style="stop-color:#45b7d1;stop-opacity:1">
-          <animate attributeName="stop-color" values="#45b7d1;#96ceb4;#ffeaa7;#f093fb;#4facfe;#43e97b;#fa709a;#fee140;#ff6b6b;#4ecdc4;#45b7d1" dur="4s" repeatCount="indefinite"/>
-        </stop>
-        <stop offset="75%" style="stop-color:#96ceb4;stop-opacity:1">
-          <animate attributeName="stop-color" values="#96ceb4;#ffeaa7;#f093fb;#4facfe;#43e97b;#fa709a;#fee140;#ff6b6b;#4ecdc4;#45b7d1;#96ceb4" dur="4s" repeatCount="indefinite"/>
-        </stop>
-        <stop offset="100%" style="stop-color:#ffeaa7;stop-opacity:1">
-          <animate attributeName="stop-color" values="#ffeaa7;#f093fb;#4facfe;#43e97b;#fa709a;#fee140;#ff6b6b;#4ecdc4;#45b7d1;#96ceb4;#ffeaa7" dur="4s" repeatCount="indefinite"/>
-        </stop>
-      </linearGradient>
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-    </defs>
-    <text x="350" y="75" font-family="Arial, sans-serif" font-size="56" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="url(#gradient)" filter="url(#glow)" opacity="1">
-      <animate attributeName="opacity" values="0.7;1;0.9;1;0.7" dur="2.5s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1;1.05;1;1.03;1" dur="3s" repeatCount="indefinite"/>
-      Joseph Hudak
-    </text>
-  </svg>
+  <h1 style="font-size: 56px; font-weight: bold; background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #ffeaa7, #f093fb, #4facfe, #43e97b, #fa709a, #fee140); background-size: 300% 100%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">
+    Joseph Hudak
+  </h1>
 </div>
 
 <!-- Subtitle -->
