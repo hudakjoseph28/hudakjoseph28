@@ -8,7 +8,7 @@
 </div>
 
 <!-- Subtitle -->
-<h3>🚀 Full Stack Developer | Problem Solver | Product Engineer </h3>
+<h3> Full Stack Developer | Problem Solver | Product Engineer </h3>
 
 <!-- Most Used Languages -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hudakjoseph28&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=4ECDC4&text_color=FFFFFF" alt="Most Used Languages" height="180"/>
